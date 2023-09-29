@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Speech Processing and Translation Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Speech Processing and Translation</h1>
+    <p>Speak:</p>
+    <button id="startButton">Start Recording</button>
+    <button id="stopButton" style="display: none;">Stop Recording</button> <!-- Added Stop Recording button -->
+    <p>Recognized Text:</p>
+    <div id="recognizedText"></div>
+    <p>Select Target Language:</p>
+<select id="targetLanguage">
+    <option value="es">Spanish</option>
+    <option value="fr">French</option>
+    <option value="de">German</option>
+    <option value="hi">Hindi</option>
+    <option value="mr">Marathi</option>
+    <option value="gu">Gujarati</option>
+    <!-- Add more language options as needed -->
+</select>
+    <p>Translation:</p>
+    <div id="translation"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

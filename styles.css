@@ -1,0 +1,79 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+}
+
+/* Container Styles */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+#startButton,
+#stopButton {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startButton:hover,
+#stopButton:hover {
+    background-color: #2980b9;
+}
+
+/* Text Display Styles */
+p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#recognizedText,
+#translation {
+    font-size: 18px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    min-height: 40px;
+}
+
+/* Target Language Dropdown Styles */
+p#selectLabel {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#targetLanguage {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
